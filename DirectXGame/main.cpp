@@ -3,6 +3,7 @@
 #include <cassert>
 #include <d3dcompiler.h>
 
+
 using namespace KamataEngine;
 
 // Windowsアプリでのエントリーポイント(main関数)
