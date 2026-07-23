@@ -84,7 +84,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	}
 
 	// 解放処理
-	vb.Get()->Release();
+	// vb.Get()->Release();
 	/*graphicsPipeLineState->Release();*/
 	// signatureBlob->Release();
 	///*if (errorBlob) {
