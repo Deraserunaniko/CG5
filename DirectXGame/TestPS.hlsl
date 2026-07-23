@@ -1,10 +1,11 @@
-struct PixeShaderOutput
+struct PixelShaderOutput
 {
     float4 color : SV_TARGET;
 };
-PixeShaderOutput main()
+
+PixelShaderOutput main()
 {
-    PixeShaderOutput output;
-    output.color = float(1.0f, 1.0f, 1.0f, 1.0f);
+    PixelShaderOutput output;
+    output.color = float4(1.0f, 1.0f, 1.0f, 1.0f);
     return output;
 }
