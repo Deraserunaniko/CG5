@@ -184,7 +184,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClCompile Include="MiscUtility.cpp" />
     <ClCompile Include="PipelineState.cpp" />
     <ClCompile Include="RootSignature.cpp" />
-    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SpriteCommon.cpp" />
     <ClCompile Include="VertexBuffer.cpp" />
   </ItemGroup>
@@ -208,9 +208,12 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClInclude Include="MiscUtility.h" />
     <ClInclude Include="PipelineState.h" />
     <ClInclude Include="RootSignature.h" />
-    <ClInclude Include="shader.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="SpriteCommon.h" />
     <ClInclude Include="VertexBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\Test.hlsli" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

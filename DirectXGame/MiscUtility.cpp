@@ -1,8 +1,8 @@
 #include "MiscUtility.h"
-#include <string>    // string wstring
-#include <windows.h> // MultiByteToWideChar WideCharToMultiByte CP_UTF8
+#include <string>    //stinrg, wstring
+#include <windows.h> //MultiByteToWideChar, WideCharToMultiByte CP_UTF8
 
-// string => wstring 文字列変換
+// string => wstring　文字列変換
 std::wstring ConvertString(const std::string& str) {
 	if (str.empty()) {
 		return std::wstring();
@@ -16,7 +16,7 @@ std::wstring ConvertString(const std::string& str) {
 	return result;
 }
 
-// wstring => string 文字列変換
+// wstring => string　文字列変換
 std::string ConvertString(const std::wstring& str) {
 	if (str.empty()) {
 		return std::string();
