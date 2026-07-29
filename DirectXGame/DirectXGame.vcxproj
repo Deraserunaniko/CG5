@@ -187,6 +187,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SpriteCommon.cpp" />
     <ClCompile Include="VertexBuffer.cpp" />
+    <ClCompile Include="WorldTransformEx.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="TestPS.hlsl">
@@ -211,6 +212,7 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SpriteCommon.h" />
     <ClInclude Include="VertexBuffer.h" />
+    <ClInclude Include="WorldTransformEx.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shaders\Test.hlsli" />

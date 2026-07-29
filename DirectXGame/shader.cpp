@@ -140,4 +140,4 @@ void Shader::LoadDxc(const std::wstring& filePath, const std::wstring& shaderMod
 
 	// 実行用のバイナリを取っておく
 	dxcBlob_ = shaderBlob;
-}
+} 
